@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- xslkit -->
+
+<!-- config file (xml) -->
+
+<config>
+
+  <option name="CONTENT_TYPE_HEADER" value="Content-Type: "/>
+  <option name="LOCATION_HEADER" value="Location: "/>
+
+  <option name="MAIN_FILE" value="xslkit.php"/>
+
+  <option name="MIME_ERR" value="text/plain"/>
+  <option name="MIME_XML" value="text/xml"/>
+  <option name="MIME_HTML" value="application/xhtml+xml"/>
+
+  <option name="ERR_INV_FN" value="Invalid file name&amp;mdash;"/>
+  <option name="ERR_NOT_FOUND" value="File Not Found&amp;mdash;"/>
+  <option name="ERR_NO_FILES" value="No Suitable Files"/>
+
+  <option name="DIR_DATA" value="../"/>
+
+  <option name="DIR_STRIP_REGEXP_START" value="|^"/>
+  <option name="DIR_STRIP_REGEXP_END" value="|"/>
+
+  <option name="EXT_DELIM" value="."/>
+  <option name="EXT_XML" value="xml"/>
+  <option name="EXT_XSL" value="xsl"/>
+
+  <option name="VALID_FN_REGEXP" value="/^[\w_]+$/"/>
+
+  <option name="PARAM_FN" value="xslt"/>
+
+  <option name="FILE_LIST_MASK" value="*"/>
+
+  <option name="FILE_LIST_HTML" value="./tpl/main.xhtml"/>
+  <option name="FILE_LIST_XSL" value="./tpl/filelist.xsl"/>
+
+  <option name="FILE_LIST_XSL_PARAM" value="file-list"/>
+
+  <option name="FILE_LIST_XSL_PARAM_DELIM" value=" "/>
+
+  <option name="QUERY_STRING_XSLT" value="?xslt="/>
+
+</config>

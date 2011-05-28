@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE html PUBLIC
+"-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<!-- transitional dtd used since we want to use the -->
+<!-- ua's built-in xml viewer                       -->
+
+<!-- xslkit -->
+
+<!-- main page (html) -->
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+  <head>
+
+    <title>
+      xslkit
+    </title>
+
+    <link
+      rel="stylesheet"
+      href="style/xslkit.css"
+      type="text/css" />
+
+    <script type="text/javascript" src="libdom/libdom.js">
+    </script>
+    <script type="text/javascript" src="js/xslkit.js">
+    </script>
+
+  </head>
+
+  <body
+    id="root"
+    style=" display : none ; "
+    onload=" load_cf ( ) ; ">
+
+    <div class="file_list">
+      <div class="file">
+        <div class="file_unwrapper">
+          <span
+            class="icon xml"
+            onclick=" show_xml ( this ) ; " />
+          <span
+            class="icon xsl"
+            onclick=" show_xsl ( this ) ; " />
+          <span
+            class="icon exec"
+            onclick=" xform ( this ) ; " />
+          <span class="filename"></span>
+        </div>
+      </div>
+    </div>
+
+    <iframe id="frame_xml" src="about:blank" class="xml">
+      &lt;iframe&gt; support required
+    </iframe>
+
+    <div class="logo">
+      xslkit 0.2.1.20061003
+    </div>
+
+  </body>
+
+</html>

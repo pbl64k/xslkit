@@ -1,0 +1,107 @@
+
+/* xslkit */
+
+/* global stylesheet (css) */
+
+  html , body
+  {
+    color : #000000 ;
+    background : #ffffff ;
+    font-size : 1em ;
+    font-family : sans-serif ;
+    padding : 0 ;
+    border : 0 ;
+    margin : 0 ;
+  }
+
+  iframe.xml
+  {
+    width : 95% ;
+    height : 25em ;
+    padding : 0 ;
+    border : 1px solid #000000 ;
+    margin : 0.4em 2% 2.4em 2% ;
+  }
+
+  div.logo
+  {
+    color : #ffffff ;
+    background : #00003f ;
+    position : fixed ;
+    bottom : 0 ;
+    text-align : right ;
+    font-size : 0.85em ;
+    font-weight : bold ;
+    font-style : italic ;
+    width : 94% ;
+    padding : 0.2em 3% ;
+    border : 0 ;
+    margin : 0 ;
+  }
+
+  div.file_list
+  {
+    overflow : auto ;
+    width : 94.5% ;
+    height : 7.56em ;
+    padding : 0.2em ;
+    border : 1px solid #000000 ;
+    margin : 0.7em 3.5% 0.2em 2% ;
+  }
+
+  div.file_unwrapper
+  {
+    width : 1000em ;
+    padding : 0 ;
+    border : 0 ;
+    margin : 0 ;
+  }
+
+  div.file
+  {
+    overflow : hidden ;
+    background : #efefdf ;
+    float : left ;
+    width : 10.8em ;
+    height : 1em ;
+    padding : 0.4em 0.4em 0.8em 0.4em ;
+    border : 1px solid #cfcfbf ;
+    margin : 0.1em ;
+  }
+
+  span.xml:before
+  {
+    content : '\a0XML\a0' ;
+  }
+
+  span.xsl:before
+  {
+    content : '\a0XSL\a0' ;
+  }
+
+  span.exec:before
+  {
+    content : '\a0>\a0' ;
+  }
+
+  span.icon
+  {
+    cursor : pointer ;
+    color : #ffffff ;
+    background : #000000 ;
+    font-size : 0.7em ;
+    font-weight : bold ;
+    padding : 0.2em ;
+    border : 2px outset #6f6f5f ;
+  }
+
+  span.icon:active
+  {
+    border-style : inset ;
+  }
+
+  span.filename
+  {
+    color : #1f1fdf ;
+    vertical-align : middle ;
+  }

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- xslkit -->
+
+<!-- config file schema (xsd) -->
+
+<xsd:schema
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+  <xsd:element name="config" type="configType">
+  </xsd:element>
+
+  <xsd:complexType name="configType">
+    <xsd:sequence>
+      <xsd:element name="option" minOccurs="0" maxOccurs="unbounded">
+        <xsd:complexType>
+          <xsd:attribute name="name" type="xsd:NMTOKEN"/>
+          <xsd:attribute name="value" type="xsd:string"/>
+        </xsd:complexType>
+      </xsd:element>
+    </xsd:sequence>
+  </xsd:complexType>
+
+</xsd:schema>
