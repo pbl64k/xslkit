@@ -19,7 +19,7 @@
   <option name="ERR_NOT_FOUND" value="File Not Found&amp;mdash;"/>
   <option name="ERR_NO_FILES" value="No Suitable Files"/>
 
-  <option name="DIR_DATA" value="../"/>
+  <option name="DIR_DATA" value="xsl/"/>
 
   <option name="DIR_STRIP_REGEXP_START" value="|^"/>
   <option name="DIR_STRIP_REGEXP_END" value="|"/>

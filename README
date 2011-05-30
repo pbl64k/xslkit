@@ -1,5 +1,21 @@
+WARNING: I haven't audited this recently and do not know whether there
+are any security vulnerabilities in it. I strongly advise against
+deploying where available to the general public, do so at your own risk.
+
 I used this monstrosity back in 2006 when I was spending a lot of time
 studying XSLT. For a while I thought it was pretty sweet, but eventually
 regained my senses and started using xsltproc and Saxon from CLI.
 
 I'm keeping it here strictly for sentimental value, use at your own risk.
+
+Very likely it isn't going to work anywhere but in Gecko/SpiderMonkey-
+based browsers.
+
+Only matching pairs of .xml and .xsl files from the xsl/ sub-directory
+are listed in the UI. XML and XSL buttons display the corresponding
+files, while the ">" button runs the transformation and attempts to
+display the result. A couple of trivial examples are provided by way of,
+well, example.
+
+The file cf/xslkit.cf.xml contains some configuration options, including
+a number of very silly ones.
